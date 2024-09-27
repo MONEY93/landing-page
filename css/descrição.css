@@ -1,0 +1,19 @@
+#descrição {
+    color: rgb(40, 39, 39);
+    display: flex;  
+    padding-top: 80px;
+    padding-right: 500px;
+    padding-left: 50px;
+    margin-right: 500px;
+    gap: 20px;
+    justify-content:center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.fotos {
+    margin-top: -360px;
+    align-items: flex-start;
+    margin-left: 700px;
+    display: flex;
+}

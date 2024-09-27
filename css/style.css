@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('header.css');
+@import url('home.css');
+@import url('descrição.css');
+@import url('fórmula.css');
+@import url('footer.css');
+
+* {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1.9px solid black ;
+    border-radius: 12px;
+    padding: 10px 14px;
+    gap: 48px;
+    font-weight: 600;
+    /*box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);*/
+    cursor: pointer;
+    transition: backgroud-color .3s ease;;
+}
+
+.btn-default:hover {
+    background-color: rgb(236, 232, 232);
+}
+
+.section-title {
+    font-size: 50px;
+    color: rgb(40, 39, 39);
+}
+
+.section-subtitle {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(40, 39, 39);
+}
+
